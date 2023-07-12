@@ -3,7 +3,10 @@
 body {
     background-color: #202225;
     margin: 0;
-    max-width: 1440px;
+}
+
+.container {
+    max-width: 100%;
 }
 
 .header {
@@ -19,21 +22,17 @@ body {
     justify-content: space-between;
 }
 
-.header__logo {
-
-}
-
-.header__menu {
+.header__menu ul {
     display: flex;
     gap: 15px;
 }
 
-.header__menu-items{
+.header__menu ul li{
     list-style: none;
     display: flex;
 }
 
-.header__menu-items-link {
+.header__menu ul li a{
     font-family: Fira code;
     border: 1px solid #ffff;
     border-radius: 10px;
@@ -43,7 +42,7 @@ body {
 }
 
 
-.header__menu-items-link:hover {
+.header__menu ul li a:hover {
     background-color: #fff;
     color:  #36393f;
     transition: 800ms;
