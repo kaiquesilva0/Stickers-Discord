@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
+body {
+    background-color: #202225;
+    margin: 0;
+    max-width: 1440px;
+}
+
+.header {
+    background-color: #36393f;
+    padding: 15px 100px;
+    border-bottom: 1px solid #0e51fca4;
+    border-radius: 0 0 100px 100px;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+
+}
+
+.header__menu {
+    display: flex;
+    gap: 15px;
+}
+
+.header__menu-items{
+    list-style: none;
+    display: flex;
+}
+
+.header__menu-items-link {
+    font-family: Fira code;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header__menu-items-link:hover {
+    background-color: #fff;
+    color:  #36393f;
+    transition: 800ms;
+    transform: translate(-1px 1px);
+    transform: scale(1.10);
+    filter: drop-shadow(0 0 10px #0e51fca4);
+}
